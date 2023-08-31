@@ -5,13 +5,20 @@ int main()
 	float A;
 	float B;
 	float X;
-	std::cout << "Hello my name is Ryan and I am going to solve the equation Ax+B = 0\n";
+
+	cout << "Hello my name is Ryan and I am going to solve the equation Ax+B = 0 for x\n";
+
 	cout << "Please enter a value for A: ";
 	cin >> A;
-	cout << "A=" << A << endl;
+	cout << "A=" << A << "\n\n";
+
 	cout << "Please enter a value for B: ";
 	cin >> B;
-	cout << "B=" << B << endl;
+	cout << "B=" << B << "\n\n";
+
+	cout << "Solving " << A << "x+" << B << "=0 for x . . .\n\n";
+
 	X = ((-1 * B) / A);
-	cout << "And X=" << X << endl;
+
+	cout << "The answer is x= " << X << endl;
 }
